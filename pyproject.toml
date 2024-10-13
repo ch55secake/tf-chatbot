@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tf-chatbot"
+version = "0.1.0"
+description = "Basic chatbot using tensorflow"
+authors = ["Oscar"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "2.17.0"
+nltk = "3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
